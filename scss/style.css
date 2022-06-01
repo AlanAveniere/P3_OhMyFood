@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@300&family=Shrikhand&display=swap");
 a {
   display: block;
   text-decoration: none;
@@ -38,8 +39,7 @@ body {
   }
 
   .location__texte {
-    font-weight: 700;
-    color: gray;
+    font-weight: bold;
   }
 
   .navigation {
@@ -51,7 +51,7 @@ body {
 
   .header-premier__titre {
     margin-top: 2.5rem;
-    font-weight: 700;
+    font-weight: bold;
   }
 
   .header-premier__texte {
@@ -74,11 +74,6 @@ body {
 
   .bouton--violet {
     background: linear-gradient(360deg, #9356dc 3%, #ff79da 97%);
-    transition: all 0.5s;
-  }
-  .bouton--violet:hover {
-    opacity: 0.8;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
   }
 }
 /* HEADER */
@@ -94,37 +89,32 @@ body {
   width: 100%;
 }
 
-.fonctionnement__box {
+.functionnement__choix {
+  /*width: 65%;*/
+  margin: 0.5rem;
+}
+
+.communetest {
   display: flex;
   flex-direction: row;
-  text-align: center;
   background-color: #f6f6f6;
   border-radius: 1.5rem;
-  box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.2);
-  padding: 1rem 0rem;
-  margin-bottom: 1.5rem;
+  box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.3);
+  padding: 1.5rem 0rem;
   width: 85%;
 }
-.fonctionnement__box:hover {
-  background-color: #f5edff;
-}
-.fonctionnement__box:hover .fonctionnement__icone {
-  color: #9356dc;
-}
-.fonctionnement__box .fonctionnement__nombre {
+
+.commune {
   margin: 0.5rem 0.5rem 0.5rem -0.5rem;
-  background-color: #9356DC;
+  background-color: #aa9797;
   border-radius: 50px;
   width: 1rem;
   height: 1rem;
   text-align: center;
   padding: 0.25rem;
-  color: white;
 }
-.fonctionnement__box .functionnement__choix {
-  margin: 0.5rem;
-}
-.fonctionnement__box .fonctionnement__texte {
+
+.communetext12 {
   padding-right: 2rem;
 }
 

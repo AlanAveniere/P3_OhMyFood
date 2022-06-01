@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-with, initial-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
 	<title>ohmyfood</title>
 
 </head>
@@ -23,7 +23,7 @@
 			<h1 class="header-premier__titre">Réservez le menu qui vous convient</h1>
 			<p class="header-premier__texte">Découvrez des restaurants d'exception,<br>sélectionnés pas nos soins.</p>
 			<a href="menu1.html" class="bouton bouton--violet">
-				<span>Explorer nos restaurants</span>
+				<span class="navigation__blanc">Explorer nos restaurants</span>
 			</a>
 		</div>
 	</div>
@@ -31,25 +31,31 @@
 <!-- HEADER SITE (fin) -->
 <!-- BODY SITE (debut) -->
 <main>
-	<section>
-		<h2>Fonctionnement</h2>
-		<ol>
-			<li>
-				<span>1</span>
-				<i class="fa-solid fa-mobile-screen-button"></i>
-				<span>Choisissez un restaurant</span>
-			</li>
-			<li>
-				<span>2</span>
-				<i class="fa-solid fa-list-ul"></i>
-				<span>Composez votre menu</span>
-			</li>
-			<li>
-				<span>3</span>
-				<i class="fa-solid fa-store"></i>
-				<span>Dégustez au restaurant</span>
-			</li>
-		</ol>
+	<section class="fonctionnement">
+		<h2 class="fonctionnement__titre">Fonctionnement</h2>
+		<div class="fonctionnement__carte">
+			<a class="fonctionnement__box">
+				<span class="fonctionnement__nombre">1</span>
+				<div class="functionnement__choix">
+					<i class="fonctionnement__icone fa-solid fa-mobile-screen-button"></i>
+					<span class="fonctionnement__texte">Choisissez un restaurant</span>
+				</div>
+			</a>	
+			<a class="fonctionnement__box">
+				<span class="fonctionnement__nombre">2</span>
+				<div class="functionnement__choix">
+					<i class="fonctionnement__icone fa-solid fa-list-ul"></i>
+					<span class="fonctionnement__texte">Composez votre menu</span>
+				</div>
+			</a>	
+			<a class="fonctionnement__box">
+				<span class="fonctionnement__nombre">3</span>
+				<div class="functionnement__choix">
+					<i class="fonctionnement__icone fa-solid fa-store"></i>
+					<span class="fonctionnement__texte">Dégustez au restaurant</span>
+				</div>
+			</a>
+		</div>
 	</section>
 	<section>
 		<h2>Restaurants</h2>
