@@ -183,7 +183,7 @@ img {
   padding: 0.25rem;
   color: white;
 }
-.fonctionnement__box .functionnement__choix {
+.fonctionnement__box .fonctionnement__choix {
   margin: 0.5rem;
 }
 .fonctionnement__box .fonctionnement__icone {
@@ -315,7 +315,34 @@ img {
 }
 
 /* FOOTER */
-@media (min-width: 768px) {
+/* TABLETTE */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .fonctionnement__carte {
+    display: flex;
+    flex-direction: row;
+  }
+  .fonctionnement__carte a {
+    width: 30;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+/* TABLETTE */
+/* DESKTOP */
+@media (min-width: 1201px) {
+  .fonctionnement__carte {
+    display: flex;
+    flex-direction: row;
+  }
+  .fonctionnement__carte a {
+    width: 30;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .fonctionnement__carte a .fonctionnement__choix {
+    text-align: center;
+  }
+
   .restaurants {
     display: flex;
     flex-direction: row;
@@ -329,4 +356,5 @@ img {
   .restaurants__box {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/* DESKTOP *//*# sourceMappingURL=style.css.map */
