@@ -197,7 +197,7 @@ img {
 .restaurants {
   width: 100%;
   background: #f6f6f6;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .restaurants__background {
@@ -340,6 +340,7 @@ img {
     margin-right: 2%;
   }
   .fonctionnement__carte a .fonctionnement__choix {
+    width: 100%;
     text-align: center;
   }
 
