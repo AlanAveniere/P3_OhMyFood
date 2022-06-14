@@ -226,7 +226,7 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border: -3px solid;
+  border: 3px solid;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   color: #f2f2f2;
@@ -322,7 +322,7 @@ img {
     flex-direction: row;
   }
   .fonctionnement__carte a {
-    width: 30;
+    width: 30%;
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -335,7 +335,7 @@ img {
     flex-direction: row;
   }
   .fonctionnement__carte a {
-    width: 30;
+    width: 30%;
     margin-left: 2%;
     margin-right: 2%;
   }
