@@ -1,0 +1,35 @@
+/* HEADER */
+/* HEADER */
+/* BODY*/
+/* BODY*/
+/* FOOTER */
+.footer-commun {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.footer-commun__box {
+  margin-bottom: 0.5rem;
+}
+
+.footer-commun__titre {
+  font-family: "Shrikhand";
+  font-size: 25px;
+}
+
+.footer-commun__lien {
+  padding: 0.5rem 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-commun__icone {
+  margin-right: 0.5rem;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+/* FOOTER *//*# sourceMappingURL=menu.css.map */

@@ -309,11 +309,6 @@ img {
   margin-right: 0.5rem;
 }
 
-.test {
-  display: flex;
-  flex-direction: row;
-}
-
 /* FOOTER */
 /* TABLETTE */
 @media (min-width: 768px) and (max-width: 1200px) {
