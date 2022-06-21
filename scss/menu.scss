@@ -104,13 +104,14 @@ body {
     text-transform: uppercase;
     margin-bottom: 1rem;
     transition-duration: 0.6s;
+    padding-left: 3rem;
 }
 
 .menu__titre::after {
     content: "";
     position: absolute;
     bottom: 0;
-    left: 4px;
+    left: 3rem;
     transform: translateX(-3px);
     height: 3px;
     width: 60px;
