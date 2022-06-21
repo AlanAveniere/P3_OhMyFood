@@ -51,7 +51,7 @@ body {
 .menu {
     background: #f6f6f6;
     transform: translateY(-80px);
-    background-color: #fff;
+    background-color: #f6f6f6;
     border-radius: 50px;
     margin: auto;
     padding: 0 1rem;
@@ -103,6 +103,7 @@ body {
     position: relative;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    transition-duration: 0.6s;
 }
 
 .menu__titre::after {
@@ -123,15 +124,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: start;
+    position: relative;
     width: calc(100% - 4rem);
     margin: 20px auto;
     box-shadow: 5px 5px 10px #33333333;
     background-color: #fff;
-    border-radius: 2rem;
-    height: 8rem;
-    transition-duration: 0.6s;
-    // animation: scrollbar 1s;
-    // animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    border-radius: 1.5rem;
+    height: 5rem;
     &:hover {
         .menu__check {
             width: 5rem;
@@ -139,7 +138,7 @@ body {
             transition-duration: 0.6s;
             &-icone {
                 transform: rotate(360deg);
-                transition-duration: 0.6s;
+                transition-duration: 1.4s;
             }
           }
           .menu__nourriture {
@@ -147,12 +146,14 @@ body {
             transition-duration: 0.6s;
           }
     }
-}
+} 
+
 
 .menu__nourriture {
     padding: 1rem;
     width: 70%;
     transition: all 0.6s;
+    margin-top: -1.5rem;
     p {
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -168,6 +169,7 @@ body {
 
 .menu__plat-description {
     margin-block-end: 0;
+    margin-top: -11px;
 }
 
 .menu__plat-prix {
@@ -188,6 +190,7 @@ body {
     position: relative;
     background-color: #99E2D0;
     color: #99E2D0;
+    transition-duration: 0.6s;
 }
 
 .menu__check-icone {
@@ -205,7 +208,7 @@ body {
     align-items: center;
     border-radius: 1.5rem;
     border: none;
-    padding: 1rem 1.5rem;
+    padding: 1rem 3.5rem;
     font-size: 15px;
     font-weight: 500;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -255,3 +258,66 @@ body {
     margin-right: 0.5rem;
 }
 /* FOOTER */
+
+
+@keyframes test5 {
+    0% {
+        z-index: 3000;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    99% {
+        z-index: 3000;
+    }
+    100% {
+        z-index: -3000;
+        opacity: 0;
+    }
+}
+
+.scroll {
+    display: flex;
+    background-color: #ffffff;
+    z-index: 3000;
+    animation-name: test5;
+    animation-fill-mode: backwards;
+}
+
+.sc1 {
+    animation-delay: 0.4s;
+}
+
+.sc2 {
+    animation-delay: 0.6s;
+}
+
+.sc3 {
+    animation-delay: 0.8s;
+}
+
+.sc4 {
+    animation-delay: 1s;
+}
+
+.sc5 {
+    animation-delay: 1.2s;
+}
+
+.sc6 {
+    animation-delay: 1.4s;
+}
+
+.sc7 {
+    animation-delay: 1.6s;
+}
+
+.sc8 {
+    animation-delay: 1.8s;
+}
+
+.sc9 {
+    animation-delay: 2s;
+}
+
