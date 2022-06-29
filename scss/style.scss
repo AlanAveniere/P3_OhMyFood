@@ -53,14 +53,16 @@ img
 /* HEADER */
 .header-texte__titre {
     font-family: "Shrikhand";
-    font-size: 50px;
+    font-size: 39px;
     display: block;
     margin: auto;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
 }
 
 .header-premiere__box {
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
     background-color: #f6f6f6;
 }
 
